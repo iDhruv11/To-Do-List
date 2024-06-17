@@ -1,2 +1,7 @@
-This to do list design was taken from an existing public git repository by 5odeman 
-the entire logic, code inside files was written by me for practice purpose
+Repository about -- To do List
+Tech Stack Used -- HTML5, CSS3, Javascript
+Code by -- Me
+Design was taken from -- [link]https://github.com/5codeman/TO-DO-LIST
+Features -- -Add and remove tasks
+            -Track and change the status of tasks
+            -Filter out completed and panding tasks
