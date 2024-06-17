@@ -3,6 +3,6 @@
 ### Code by -- Me
 ### Design was taken from -- [link]https://github.com/5codeman/TO-DO-LIST
 ### Features -- 
-            #### - Add and remove tasks
-            #### - Track and change the status of tasks
-            #### - Filter out completed and panding tasks
+            - Add and remove tasks
+            - Track and change the status of tasks
+            - Filter out completed and panding tasks
