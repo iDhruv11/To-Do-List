@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <header>
+            <h4>Todo List</h4>
+            <div class="input">
+                <input type="text" placeholder="📓 Add your task here" class="input-area">
+                <button type="button" class="add-it">+</button>
+            </div>
+            <div class="delete">
+                <button type="button" class="dlt-selected">DELETE SELECTED</button>
+                <button type="button" class="dlt-all">DELETE ALL</button>
+            </div>
+        </header>
+        <div class="main">                
+        </div>
+        <footer>
+            <div>
+                <button type="button" class="filter">Filter</button>
+                <div class="filter-options">
+                    <p class="show-all">All</p>
+                    <p class="show-pending">Pending</p>
+                    <p class="show-completed">Completed</p>
+                </div>
+            </div>    
+            <p class="complete-status">Completed: 0</p>
+            <p class="total-tasks">Total Tasks: 0</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
