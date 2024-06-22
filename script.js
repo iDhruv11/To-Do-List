@@ -146,6 +146,7 @@ function showPending(){
     })
 }
 
+
 // <-- shows all tasks -->
 function showAll(){
     taskArr.forEach((elem) => {
