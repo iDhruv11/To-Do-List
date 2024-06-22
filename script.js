@@ -138,12 +138,11 @@ function updateStatus(){
 
 // <-- shows pending tasks -->
 function showPending(){
+    taskArr.forEach((elem)=>{
+        document.getElementById(elem).style.display = 'flex';
+    })
     selectArr.forEach((elem)=>{
-        taskArr.forEach((item)=>{
-            if(item == elem){
-                document.getElementById(elem).style.display = 'none';
-            }
-        })
+        document.getElementById(elem).style.display = 'none';
     })
 }
 
