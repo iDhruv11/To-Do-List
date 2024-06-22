@@ -1,6 +1,8 @@
 # Todo List App 📝
 
-![Todo List App Screenshot](images/first.png)
+<p align="center">
+  <img src="images/todo-app-screenshot.png" alt="Todo List App Screenshot" width="600">
+</p>
 
 A simple and intuitive Todo List application built using HTML, CSS, and JavaScript. The app allows users to manage their tasks efficiently with features like adding, removing, marking tasks as done, and filtering tasks based on completion status.
 
