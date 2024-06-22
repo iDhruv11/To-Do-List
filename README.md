@@ -23,8 +23,8 @@ Check out the live demo of the Todo List App [here](https://idhruv11.github.io/T
 
 ## Screenshots
 
-![Screenshot 1](images/second.png)
-![Screenshot 2](images/third.png)
+![Screenshot 1](images/second.PNG)
+![Screenshot 2](images/third.PNG)
 
 ## Getting Started
 
