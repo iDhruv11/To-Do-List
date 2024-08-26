@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    background-color: #2e3047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    /* background: linear-gradient(360deg, #efd5ff 0%, #515ada 100%); */
+    background-color: #707793;
+    min-width: 500px;
+    border-radius: 20px;
+    padding: 2em 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 60%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+h4{
+    font-family: 'Maven Pro', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.input input{
+    width: 90%;
+    font-size: 1.4rem;
+    font-family: 'Maven Pro', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: .4em .6em;
+    border-radius: 5px;
+    border: 2px solid rgb(62, 62, 62);
+    color: grey;
+}
+.input input:focus{
+    color: black;
+}
+.input > button{
+    background-color: #1f2833;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0em .5em;
+    font-size: 2.2rem;
+    font-weight: lighter;
+}
+.input > button:hover{
+    background-color: rgb(23, 28, 35);
+    cursor: pointer;
+}   
+
+.delete{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+}
+.delete button{
+    font-size: .9rem;
+    font-family: 'Maven Pro', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    border: none;
+    padding: .9em;
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter{
+    font-family: 'Maven Pro', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    background-color: #008000;
+    border: none;
+    color: white;
+    padding: .6em 1.1em;
+    border-radius: 5px;
+}
+footer > div{
+    position: relative;
+}
+.filter:hover + .filter-options{
+    display: flex;
+}   
+.filter-options:hover{
+    display: flex;
+}
+footer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 60vh;
+    overflow-y: scroll;
+    font-weight: 500;
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+.main > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+    padding: .5em .5em;
+}
+.main button{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+}
+.control{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.done{
+    background-color: #337ab4;
+    padding: 0.3em .8em;
+    color: white;
+}
+.done:hover{
+    background-color: #1881d7;
+    cursor: pointer;
+}
+.remove:hover{
+    background-color: #c23a00;
+    cursor: pointer;
+}
+.remove{
+    background-color: #ab4436;
+    padding: .3em .5em;
+}
+.content{
+    font-size: 1.4rem;  
+    font-family: 'Maven Pro', 'Arial Narrow', Arial, sans-serif;
+    max-width: 60%;
+}
+.filter-options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    display: none;
+    cursor: pointer;
+} 
+.filter-options p{
+    background-color: white;
+    padding: .5em .8em;
+    font-family: 'Maven Pro', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.filter-options p:hover{
+    background-color: rgb(219, 218, 218);
+}
+.dlt-selected:hover, .dlt-all:hover{
+    background: rgb(23, 28, 35);
+    cursor: pointer;
+}
+.filter{
+    background-color: #1f2833;
+    font-weight: 500;
+}
+.filter:hover{
+    background-color: rgb(23, 28, 35);
+    cursor: pointer
+}
+.dlt-selected, .dlt-all{
+    font-weight: 500;
+    color: white;
+    background-color: #1f2833;
+}
+.total-tasks, .complete-status{
+    font-family: 'Maven Pro', Times, serif;
+    font-weight: 500;
+}   
+
