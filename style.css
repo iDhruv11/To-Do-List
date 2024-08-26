@@ -172,7 +172,7 @@ footer p{
     font-weight: 500;
 }
 .filter-options p:hover{
-    background-color: rgb(219, 218, 218);
+    background-color: #1f2833;
 }
 .dlt-selected:hover, .dlt-all:hover{
     background: rgb(23, 28, 35);
