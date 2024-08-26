@@ -1,7 +1,5 @@
 # To-Do List Application
-
-![To-Do List](./assets/todo-list-banner.png)
-
+    
 A simple and efficient To-Do List application that helps you manage your tasks effectively. This application allows you to add, delete, and filter tasks based on their status (Pending, Done, or All).
 
 ## Features
